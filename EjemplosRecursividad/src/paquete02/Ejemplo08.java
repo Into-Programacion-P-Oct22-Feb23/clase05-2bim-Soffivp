@@ -26,7 +26,7 @@ public class Ejemplo08 {
             array[i] = entrada.nextInt();
         }
         System.out.printf("La suma total es: %d\n",
-                misterio(array, array.length));
+                misterio(array, tamaño));
     }
 
     public static int misterio(int[] arreglo, int tamanio) {
