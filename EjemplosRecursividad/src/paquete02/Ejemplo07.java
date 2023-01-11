@@ -21,7 +21,8 @@ public class Ejemplo07 {
             for (int j = 0; j < potencias.length; j++) {
                 int a = valores[i];
                 int b = potencias[j];
-                System.out.printf("La potencia de %d elevado a %d es: %d\n",a,b,obtenerPotencia(valores[i], potencias[j])
+                System.out.printf("La potencia de %d elevado a %d es: %d\n",
+                         a, b, obtenerPotencia(valores[i], potencias[j])
                 );
             }
         }
